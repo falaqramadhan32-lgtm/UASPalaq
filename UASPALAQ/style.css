@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    background:
+    linear-gradient(
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url('aceh-banner.webp');
+
+    background-size: cover;
+    background-position: center;
+
+    height: 85vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.carousel-img{
+    height:400px;
+    object-fit:cover;
+}
+
+.card{
+    border:none;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.navbar{
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.nav-link{
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:white !important;
+}
+
+footer{
+    margin-top:50px;
+}
